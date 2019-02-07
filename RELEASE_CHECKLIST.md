@@ -1,5 +1,7 @@
 # Release checklist
 
+> Precondition: You will need https://github.com/sunng87/cargo-release for this
+
 1. Make sure you are on latest master
 2. Create a new branch: `git checkout -b release`
 3. Navigate to the crate you want to release
