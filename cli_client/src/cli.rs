@@ -82,8 +82,8 @@ impl Cli {
         command
             .arg("-d") // Always run detached
             .arg("-P") // Always expose all ports
-            .arg(image.descriptor())
             .args(image.args())
+            .arg(image.descriptor())
             .stdout(Stdio::piped())
     }
 }
